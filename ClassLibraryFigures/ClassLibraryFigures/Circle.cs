@@ -8,15 +8,15 @@ namespace ClassLibraryFigures
 {
     class Circle : IForm
     {
-        public double rad { get; set; }
-        public Circle(double rad)
+        public double radius { get; set; }
+        public Circle(double radius)
         {
-            this.rad = rad;
+            this.radius = radius;
         }
 
         public double GetАrea()
         {
-            return rad = 2 * (Math.PI) * (rad * 2);
+            return radius = Math.PI * Math.Pow(radius,2);
         }
     }
 
@@ -47,7 +47,9 @@ namespace ClassLibraryFigures
 
         public bool IsRectangular()
         {
-
+            return isRectangular = ((Math.Pow(firstSide,2) + Math.Pow(secondSide,2) == Math.Pow(thirdSide,2)) ||
+               (Math.Pow(firstSide, 2) + Math.Pow(thirdSide, 2) == Math.Pow(secondSide, 2)) ||
+               (Math.Pow(thirdSide, 2) + Math.Pow(secondSide, 2) == Math.Pow(firstSide, 2))) ? true : false;
         }
     }
 }
