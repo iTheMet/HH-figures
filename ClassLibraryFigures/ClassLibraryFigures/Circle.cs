@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibraryFigures
+namespace Figures
 {
-    class Circle : IForm
+    public class Circle : IForm
     {
-        public double radius { get; set; }
+        public double radius { get;private set; }
         public Circle(double radius)
         {
             this.radius = radius;
@@ -20,16 +20,17 @@ namespace ClassLibraryFigures
         }
     }
 
-    class Triangle : IForm
+    public class Triangle : IForm
     {
-        public double firstSide { get; set; }
+        public double firstSide { get; private set; }
 
-        public double secondSide { get; set; }
+        public double secondSide { get; private set; }
 
-        public double thirdSide { get; set; }
+        public double thirdSide { get; private set; }
 
-        public bool isRectangular { get; set; }
+        public bool isRectangular { get; private set; }
 
+        public double area { get; private set; }
         public Triangle(double firstSide, double secondSide, double thirdSide)
         {
             this.firstSide = firstSide;
@@ -37,8 +38,7 @@ namespace ClassLibraryFigures
             this.thirdSide = thirdSide;
             isRectangular = false;
         }
-
-        public double area { get; set; }
+       
         public double GetАrea()
         {
             double p = (firstSide + secondSide + thirdSide) / 2;

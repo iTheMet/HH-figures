@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibraryFigures
+namespace Figures
 {
-    public interface IForm
+    interface IForm
     {
          double GetАrea();
 

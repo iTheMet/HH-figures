@@ -1,0 +1,6 @@
+R:\Документы\GIT\HH-figures\ClassLibraryFigures\ClassLibraryFigures\bin\Debug\ClassLibraryFigures.dll
+R:\Документы\GIT\HH-figures\ClassLibraryFigures\ClassLibraryFigures\bin\Debug\ClassLibraryFigures.pdb
+R:\Документы\GIT\HH-figures\ClassLibraryFigures\ClassLibraryFigures\obj\Debug\Figures.csproj.AssemblyReference.cache
+R:\Документы\GIT\HH-figures\ClassLibraryFigures\ClassLibraryFigures\obj\Debug\Figures.csproj.CoreCompileInputs.cache
+R:\Документы\GIT\HH-figures\ClassLibraryFigures\ClassLibraryFigures\obj\Debug\ClassLibraryFigures.dll
+R:\Документы\GIT\HH-figures\ClassLibraryFigures\ClassLibraryFigures\obj\Debug\ClassLibraryFigures.pdb
